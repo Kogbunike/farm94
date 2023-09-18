@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.signup-btn,
+.login-btn {
+  padding: 10px 20px;
+  background-color: yellow;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.signup-btn:hover,
+.login-btn:hover {
+  background-color: #005ea2;
+}
+body {
+  background: url(images/Digging\ for\ Gould.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+header a {
+  text-decoration: none;
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(images/Digging\ for\ Gould.jpg);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 35%;
+  width: 30%;
+}
+
+.login-form {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: yellow;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.forgot-password {
+  margin-top: 10px;
+}
+.forgot-password a {
+  text-decoration: none;
+  color: #333;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
