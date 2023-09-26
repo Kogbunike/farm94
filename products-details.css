@@ -37,7 +37,7 @@ header a {
   text-decoration: none;
 }
 body {
-  background: url(images/Digging\ for\ Gould.jpg);
+  background: url(images/Digging\ for\ Gould.jpg) ;
   background-size: cover;
 }
 .flex-box {
